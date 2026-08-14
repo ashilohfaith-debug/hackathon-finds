@@ -1,0 +1,40 @@
+name: 🔗 Submit a Resource / Tool / Hackathon
+description: Recommend a hackathon, tool, boilerplate, or link worth adding.
+title: "[Resource]: "
+labels: ["resource", "good first issue"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Hackathon to apply to
+        - Tool / tech stack
+        - Boilerplate / starter template
+        - Article / guide
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does this belong here?
+      description: One or two sentences on what makes it useful.
+    validations:
+      required: true

@@ -1,0 +1,16 @@
+{
+  "projectName": "hackathon-finds",
+  "projectOwner": "ashilohfaith-debug",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 80,
+  "commit": false,
+  "contributorsPerLine": 7,
+  "contributors": [],
+  "contributorsSortAlphabetically": true,
+  "skipCi": true,
+  "commitConvention": "none"
+}

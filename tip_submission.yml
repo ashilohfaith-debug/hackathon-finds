@@ -1,0 +1,45 @@
+name: 💡 Submit a Tip
+description: Share a hackathon tip, lesson, or piece of hard-won advice.
+title: "[Tip]: "
+labels: ["tip", "good first issue"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Where does this tip belong?
+      options:
+        - Before the hackathon
+        - During the hackathon
+        - Pitching & demos
+        - Tools & tech stacks
+        - Post-hackathon
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: tip-title
+    attributes:
+      label: Short title
+      description: A one-line summary of the tip
+      placeholder: "e.g. Submit both a demo video AND an MVP link if allowed"
+    validations:
+      required: true
+
+  - type: textarea
+    id: tip-body
+    attributes:
+      label: The tip
+      description: 2-4 sentences. Be specific — what happened, what you'd tell your past self.
+    validations:
+      required: true
+
+  - type: input
+    id: credit
+    attributes:
+      label: Credit (optional)
+      description: Your name/GitHub handle, or "Anonymous"
+      placeholder: "@yourhandle"
+    validations:
+      required: false

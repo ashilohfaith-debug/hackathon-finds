@@ -1,0 +1,14 @@
+# Requires the "actions/labeler" GitHub Action to be wired up in a workflow.
+# Auto-labels PRs based on what changed, so triage is less manual.
+
+documentation:
+  - changed-files:
+      - any-glob-to-any-file: 'README.md'
+
+tip:
+  - changed-files:
+      - any-glob-to-any-file: 'tips/**'
+
+resource:
+  - changed-files:
+      - any-glob-to-any-file: 'resources/**'

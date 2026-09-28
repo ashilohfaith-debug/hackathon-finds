@@ -20,9 +20,9 @@
 ### Brainstorming:
 > Write down your thoughts every day. You don't know which idea would come in handy tomorrow.
 
-### What you should consider while researching a problem
+### Literature Review
 
-- Literature Review: What are the existing solutions?
+- What are the existing solutions?
 - How effective are the existing solutions?
 - If the problem hadn't been addressed before, why are you bringing it up now?
 

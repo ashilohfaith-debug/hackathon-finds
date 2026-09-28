@@ -20,6 +20,12 @@
 ### Brainstorming:
 > Write down your thoughts every day. You don't know which idea would come in handy tomorrow.
 
+### What you should consider while researching a problem
+
+- Literature Review: What are the existing solutions?
+- How effective are the existing solutions?
+- If the problem hadn't been addressed before, why are you bringing it up now?
+
 ### Personal Experiences
 
 - If there’s an option to submit either a demo video or an MVP link, opt for the MVP link—or, ideally, submit both.
